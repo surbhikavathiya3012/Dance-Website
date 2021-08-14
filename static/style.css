@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+
+*{
+    margin: 0px;
+
+    
+}
+
+#logo{
+    display: flex;
+    color: blanchedalmond;
+    align-items: center;
+    filter: invert(1);
+}
+
+img {
+    max-width:50%;
+    height:50%;
+}
+
+
+#navbar ul
+{
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: center; 
+   background-color: black;
+   /* background-color: rgb(34, 25, 25);  */
+   /* font-family: 'Limelight' */
+   font-family: 'Limelight', cursive;
+
+}
+
+#navbar li {
+    list-style: none;
+    padding : 20px 30px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: blanchedalmond;
+
+}
+
+#navbar li a:hover{
+    color: rgba(196, 114, 21, 0.733);
+}
+
+#introsection{
+  
+   font-family: 'Pattaya', sans-serif;
+   height: 300px;
+   padding-bottom: 400px;
+   display: flex;
+   flex-direction:column;
+   /* font-weight: bold; */
+   justify-content: center;
+   font-size: 50px;
+  
+   align-items: center;
+   background: center/cover no-repeat url('static/2.jpg') ;
+
+   
+}
+
+#introsection div.smail{
+    font-size: 35px;
+   
+}
+
+#missionsection{
+    height: 300px;
+    width: 77%;
+    margin: auto;
+    /* background-color: coral; */
+
+}
+#missionsection h3{
+    font-family: 'Pattaya', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 125px;
+   
+
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content {
+    padding: 0 2px;
+}
+
+/* .card-content p{
+
+} */
+.card{
+    border: 2px solid black;
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    /* background-color: rgb(202, 153, 118);; */
+  
+}
+.card h4{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    /* font-weight: bold; */
+    font-family:'Limelight';
+}
+
+#sponsorsSection {
+  
+   height: 300px;
+   /* background-color: rgb(48, 15, 15); */
+   background-color: rgb(189, 133, 93);
+   
+}
+
+div#sponsors{
+    /* filter: opacity(1); */
+    /* filter: invert(0.1); */
+   
+  
+    height: 320px;
+    margin: auto;
+    max-width: 1000px;
+}
+
+/* #sponsors span {
+  content: "\00A9";
+} */
+
+
+div#sponsors img{
+    /* filter: opacity(0.01); */
+    background:transparent;
+    /* background-color: none !important; */
+}
+
+#sponsorsSection h3{
+    font-family: 'Pattaya', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+
+#footer{
+     padding : 20px;
+     background-color: black;
+     color: blanchedalmond;
+     text-align: center;
+     
+     
+}

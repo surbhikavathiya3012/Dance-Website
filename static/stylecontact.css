@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Pattaya&display=swap');
+h1{
+    /* background-color: chocolate; */
+    background-color: rgb(161, 167, 168);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Limelight', cursive;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: chocolate; */
+    background-color: rgb(161, 167, 168);
+}
+
+.myinput{
+    /* background-color: rgb(233, 184, 128); */
+    background-color: rgb(161, 167, 168);
+    margin: 10px;
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 11,lpx;
+    outline: none;
+    font-size: 15px;
+    filter:drop-shadow(2px 4px 6px black);
+    text-decoration: bold;
+}
+
+.btn{
+    /* background-color: rgb(233, 184, 128); */
+    background-color: rgb(161, 167, 168);
+    margin: 25px;
+    padding: 10px 30px;
+    font-size: 15px;
+    outline: none;
+    filter:drop-shadow(2px 4px 6px black);
+    border: 2px solid black;
+}
+.container{
+    background-color: rgb(161, 167, 168);
+    min-height: 85vh;
+}
+

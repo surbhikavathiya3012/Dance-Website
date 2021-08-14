@@ -1,0 +1,53 @@
+extends base.pug
+
+block scripts 
+  script(src="/static/index.js")
+
+block style   
+    style 
+      include ../static/style.css
+
+block content
+
+    section#introsection 
+      div welcome to surbhi's Dance academy 
+      div.smail Eat sleep Dance Repeat
+
+    section#missionsection 
+      h3 Our Mission 
+      div.card
+        h4 Dance perfection
+        div.card-box
+          div.card-img
+            img(src="/static/17.png")
+
+          div.card-content
+            p This is the best dance academy od the universe
+           
+      div.card
+        h4 Dance the way you like
+        div.card-box
+          div.card-img
+            img(src="/static/16.jpg")
+
+          div.card-content
+            p This is the best dance academy od the universe
+
+      div.card
+        h4 Expert Teaching
+        div.card-box
+          div.card-img
+            img(src="/static/18.jpg")
+
+          div.card-content
+            p This is the best dance academy od the universe
+      
+    section#sponsorsSection 
+      h3 Our Sponsor 
+      div#sponsors
+        
+
+         img(src="/static/logo1.png", alt=" sponser image ", class="spImage")
+         img(src="/static/22.jpg", alt=" sponser image ", class="spImage")
+         img(src="/static/24.png", alt=" sponser image ", class="spImage")
+         img(src="/static/27.png", alt=" sponser image ", class="spImage")      
